@@ -14,6 +14,6 @@ To run this sample:
 yarn
 export GCLOUD_PROJECT=some-project-id
 export STORAGE_BUCKET=name-of-a-bucket
-GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
+export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
 yarn dev
 ```
