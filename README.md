@@ -11,9 +11,9 @@ for the requirments.
 To run this sample:
 
 ```shell
-yarn
-export GCLOUD_PROJECT=some-project-id
-export STORAGE_BUCKET=name-of-a-bucket
-export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
-yarn dev
+$ yarn
+$ export GCLOUD_PROJECT=some-project-id
+$ export STORAGE_BUCKET=name-of-a-bucket
+$ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
+$ yarn dev
 ```
