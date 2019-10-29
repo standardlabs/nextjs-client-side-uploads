@@ -4,24 +4,23 @@
   "main": "index.js",
   "dependencies": {
     "@google-cloud/storage": "^2.5.0",
-    "body-parser": "^1.19.0",
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.3.1",
     "date-fns": "^1.30.1",
-    "express": "^4.17.0",
     "lodash": "^4.17.13",
-    "morgan": "^1.9.1",
-    "next": "^8.0.4",
-    "next-routes": "^1.4.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "reactstrap": "^8.0.0",
+    "next": "9.1.1",
+    "node-sass": "^4.13.0",
+    "react": "16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "16.10.2",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "nodemon": "^1.18.11"
+    "prettier": "^1.18.2"
   },
   "scripts": {
-    "dev": "nodemon --inspect --watch lib lib/server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node lib/server.js"
+    "start": "next start"
   }
 }
